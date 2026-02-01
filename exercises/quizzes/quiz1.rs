@@ -10,11 +10,11 @@
 
 // TODO: Write a function that calculates the price of an order of apples given
 // the quantity bought.
-fn calculate_price_of_apples(numApples: i8) -> i8 { 
-    if (numApples <= 40) {
-        numApples * 2
+fn calculate_price_of_apples(num_apples: i8) -> i8 { 
+    if num_apples <= 40 {
+        num_apples * 2
     } else {
-        numApples
+        num_apples
     }
  }
 
