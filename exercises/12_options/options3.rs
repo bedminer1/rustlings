@@ -8,7 +8,7 @@ fn main() {
     let optional_point = Some(Point { x: 100, y: 200 });
 
     // TODO: Fix the compiler error by adding something to this match statement.
-    if let Some(p) = &optional_point {
+    if let Some(p) = &optional_point { // or optional_point.as_ref()
         println!("Coordinates are {},{}", p.x, p.y);
     }
 
